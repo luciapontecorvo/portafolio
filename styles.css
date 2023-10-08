@@ -1,0 +1,164 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el header */
+.header {
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    height: 90vh;
+    background-image: url("./multimedia/gato.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    /* border: 2px solid red; */
+}
+
+/* Estilos para la barra de navegación dentro del header */
+
+.navbar ul li {
+  margin-bottom: 25px;
+  list-style: none;
+}
+
+.navbar ul li a:hover{
+  color: #46d273;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #46d273;
+  font-size: 18px;
+}
+
+/* Estilos para el contenido del encabezado */
+.header-content {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-width: 600px;
+}
+
+.header-content h1 {
+  color: #46d273;
+  font-size: 50px;
+}
+
+.header-content p {
+  font-size: 23px;
+  margin-top: 10px;
+  color: #46d273;
+}
+
+.btn-1{
+  display: inline-block;
+  padding: 11px 25px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #46d273;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.btn-1:hover{
+  background-color: #007045;
+}
+
+/* Estilos para la sección "Sobre Mí" */
+.sobre-mi {
+  background-image: url(./multimedia/portada2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  /* border: 2px solid green; */
+  padding: 20px;
+}
+
+.sobre-mi h2 {
+  text-align: center;
+  font-size: 30px;
+  color: #46d273;
+  margin: 0; /* Espacio inferior entre el título y el párrafo */
+}
+
+.sobre-mi p {
+  font-size: 20px;
+  color: #46d273;
+  align-items: center;
+}
+
+/* Estilos para el main y proyectos */
+main {
+  padding: 20px;
+}
+
+.projects {
+  padding: 20px;
+}
+
+.proyectos-txt h2{
+  align-items: center;
+  text-align: center;
+  color: #46d273;
+  font-size: 30px;
+}
+
+.proyectos-group{
+  display: flex;
+  justify-content: space-between;
+  margin: 45px 0;
+}
+
+.proyecto {
+  background: #11998e;
+  background: -webkit-linear-gradient(to right, #38ef7d, #11998e); 
+  background: linear-gradient(to right, #38ef7d, #11998e);
+  padding: 35px 25px;
+  margin: 0 10px;
+  border-radius: 15px;
+}
+
+.proyecto h3{
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.proyecto img{
+  align-items: center;
+}
+
+.proyecto p{
+  font-size: 15px;
+  color: #FFF;
+  text-align: center;
+}
+  
+  /* Estilos para el footer */
+  .footer {
+    background: #11998e;
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e); 
+    background: linear-gradient(to right, #38ef7d, #11998e);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .social-container h3 {
+    text-align: center;
+    font-size: 30px;
+  }
+  
+
+
+.contacto-icons a{
+  color: #FFFFFF;
+  font-size: 30px;
+  margin: 20px;
+}
